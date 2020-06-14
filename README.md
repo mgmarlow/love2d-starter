@@ -15,7 +15,7 @@ Add a `.env` file to the root of your project directory. It needs to contain a v
 
 ```
 # Example .env
-LOVEPATH=C:/Program Files/LOVE
+LOVE_PATH=C:/Program Files/LOVE
 ```
 
 Now run `make build`.
