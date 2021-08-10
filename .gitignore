@@ -1,2 +1,9 @@
 build/
+
 .env
+
+# Lua rocks
+.env/luarocks
+/lua
+/lua_modules
+/.luarocks

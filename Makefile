@@ -1,10 +1,8 @@
-.PHONY: build
+include .env
+export
 
 run:
-	love .
-
-build:
-	ruby ./scripts/build.rb
+	$(LOVE_EXE) .
 
 debug:
-	love . --console
+	$(LOVE_EXE) . --console
