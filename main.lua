@@ -1,4 +1,4 @@
-require 'src/dependencies'
+require 'game/dependencies'
 
 function love.load()
   love.window.setTitle('my project')
