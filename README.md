@@ -1,21 +1,25 @@
 # Love2D starter
 
-## Distribution (Windows)
+A [love2d](https://love2d.org/) project with sensible defaults.
 
-Requires [Make](http://gnuwin32.sourceforge.net/packages/make.htm) and [Ruby 2.4+](https://www.ruby-lang.org/en/). Ensure that the following gems are installed on your system:
+## Get started
+
+Create a `.env` file at the root of the project that points to your [love2d](https://love2d.org/) binary:
 
 ```sh
-# https://github.com/rubyzip/rubyzip
-gem install rubyzip
-# https://github.com/bkeepers/dotenv
-gem install dotenv
+cat > .env <<EOF
+LOVE_EXE=/Applications/love.app/Contents/MacOS/love
+EOF
 ```
 
-Add a `.env` file to the root of your project directory. It needs to contain a value for `LOVE_PATH` set to the directory where Love is installed.
+Run the project:
 
 ```
-# Example .env
-LOVE_PATH=C:/Program Files/LOVE
+make run
 ```
 
-Now run `make build`.
+Run in debug mode:
+
+```
+make debug
+```
