@@ -6,13 +6,13 @@ function love.load()
   love.window.setMode(WINDOW_WIDTH, WINDOW_HEIGHT)
 
   gFonts = {
-    ['small'] = love.graphics.newFont('fonts/cardenio_modern.otf', 18),
-    ['medium'] = love.graphics.newFont('fonts/cardenio_modern.otf', 32),
+    ['small'] = love.graphics.newFont('assets/fonts/cardenio_modern.otf', 18),
+    ['medium'] = love.graphics.newFont('assets/fonts/cardenio_modern.otf', 32),
     ['medium-large'] = love.graphics.newFont(
-      'fonts/cardenio_modern.otf',
+      'assets/fonts/cardenio_modern.otf',
       64
     ),
-    ['large'] = love.graphics.newFont('fonts/cardenio_modern.otf', 142)
+    ['large'] = love.graphics.newFont('assets/fonts/cardenio_modern.otf', 142)
   }
 
   gStateMachine =

@@ -1,5 +1,7 @@
 {
-  "lua.format.singleQuote": true,
-  "lua.format.indentCount": 2,
-  "lua.format.lineWidth": 75
+  "Lua.runtime.version": "LuaJIT",
+  "Lua.workspace.library": [
+    "${3rd}/love2d/library"
+  ],
+  "Lua.workspace.checkThirdParty": false
 }

@@ -1,8 +1,8 @@
 Class = require 'lib/hump/class'
 Timer = require 'lib/hump/timer'
 Signal = require 'lib/hump/signal'
-require 'lib/StateMachine'
 
+require 'game/StateMachine'
 require 'game/constants'
 require 'game/Animation'
 require 'game/states/BaseState'
